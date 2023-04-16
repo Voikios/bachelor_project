@@ -99,8 +99,6 @@ def frustration_model(
             f_ij = (1 - sign) / 2 + sign * (x_i + x_j - 2 * x_ij)
         elif model_name == "abs":
             f_ij = e_ij + h_ij
-        else:
-            pass
 
         objective += f_ij
 
